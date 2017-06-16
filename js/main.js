@@ -9,8 +9,7 @@ $(document).ready(function(){
           data:{
               client_id:'47feb35ac747799df6c7',
               client_secret:'ac25d56b6b667ff7cea62569e7f004e56192ed98',
-              sort: 'created: asc',
-              per_page: 10
+              sort: 'created: asc'
           }
       }).done(function(team){
           $.ajax({
