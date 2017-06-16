@@ -14,7 +14,7 @@ $(document).ready(function(){
           for (var i = 0; i < team.length; i++){
               function parseISOString(s) {
                 var b = s.split(/\D+/);
-                return new Date(Date.UTC(b[0], --b[1], b[2], b[3], b[4], b[5]));
+                return new Date(Date.UTC(b[0], --b[1], b[2], b[3], b[4], b[5], b[6]));
                 }
               var updateTime = parseISOString(team[i]['updated_at']);
             //  var updateTime = updateTim
