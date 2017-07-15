@@ -17,7 +17,9 @@
   "homepage": "https://github.com/decentstudio/decent-github-scrape#readme",
   "description": "",
   "dependencies": {
+    "cron": "^1.2.1",
     "dotenv": "^4.0.0",
+    "lodash": "^4.17.4",
     "request": "^2.81.0",
     "request-promise": "^4.2.1"
   }
