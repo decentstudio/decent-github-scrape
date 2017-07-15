@@ -1,0 +1,24 @@
+{
+  "name": "githubreposcraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentstudio/decent-github-scrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/decentstudio/decent-github-scrape/issues"
+  },
+  "homepage": "https://github.com/decentstudio/decent-github-scrape#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
